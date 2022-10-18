@@ -10,13 +10,14 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `CUDNN_jll.jl` have been built from these sources:
 
-* compressed archive: https://developer.nvidia.com/compute/cudnn/secure/8.6.0/local_installers/10.2/cudnn-linux-x86_64-8.6.0.163_cuda10-archive.tar.xz (SHA256 checksum: `b78b2bfc6ac5aaa771bb6561689424e4ad579bfd255387215c6f2154bd3d47d9`)
+* compressed archive: https://developer.nvidia.com/compute/cudnn/secure/8.6.0/local_installers/10.2/cudnn-windows-x86_64-8.6.0.163_cuda10-archive.zip (SHA256 checksum: `fa34d362b8d61e33a20da2a5b91dbd72e5b6db5b53fd77900b3363f29ee9ccd9`)
+* compressed archive: http://www.winimage.com/zLibDll/zlib123dllx64.zip (SHA256 checksum: `fd324c6923aa4f45a60413665e0b68bb34a7779d0861849e02d2711ff8efb9a4`)
 
 ## Platforms
 
 `CUDNN_jll.jl` is available for the following platforms:
 
-* `Linux x86_64 {cuda=10.2, libc=glibc}` (`x86_64-linux-gnu-cuda+10.2`)
+* `Windows x86_64 {cuda=10.2}` (`x86_64-w64-mingw32-cuda+10.2`)
 
 ## Dependencies
 
