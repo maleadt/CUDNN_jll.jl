@@ -1,0 +1,11 @@
+[[CUDNN]]
+arch = "x86_64"
+cuda = "11.0"
+git-tree-sha1 = "39edbd07a46d182c2681130c16ff339251297514"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[CUDNN.download]]
+    sha256 = "7aedcce1519a244c79f1c57f894b66f1acdf9faba96d3cb15c464f0d229de8af"
+    url = "https://github.com/maleadt/CUDNN_jll.jl/releases/download/CUDNN-v8.6.0+1/CUDNN.v8.6.0.x86_64-linux-gnu-cuda+11.0.tar.gz"
